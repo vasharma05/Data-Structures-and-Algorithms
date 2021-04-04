@@ -1,0 +1,1 @@
+cp ../sample/sample.cpp $1
