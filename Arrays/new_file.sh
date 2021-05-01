@@ -1,1 +1,1 @@
-cp ../sample/sample.cpp $1
+cp ../sample/sample.cpp $1.cpp
