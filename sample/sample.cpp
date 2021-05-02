@@ -24,7 +24,7 @@ void load_file_io(){
 
 void inputArray(int A[], int n){
     for(int i = 0; i<n; i++){
-        cin >> A[i];
+        fin >> A[i];
     }
 }
 
