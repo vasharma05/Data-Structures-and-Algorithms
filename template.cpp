@@ -64,7 +64,7 @@ typedef unsigned long long int uint64;
 
 ifstream fin;
 void load_file_io(){
-	fin.open("../input_output/input.txt");
+	// fin.open("../input_output/input.txt");
 }
 void inputArray(int* , int);
 void inputVector(VI& , int);
