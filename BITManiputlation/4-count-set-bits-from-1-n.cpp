@@ -75,15 +75,15 @@ void printArray(int*, int, string);
 
 int solution(int n){
 	n++;
-        int i = 1;
-        int res = 0;
-        while(i < n){
-            res += (n/(2*i))*(i);
-            if((n/i)%2)
-                res += n%i;
-            i *= 2;
-        }
-        return res;
+  int i = 1;
+  int res = 0;
+  while(i < n){
+      res += (n/(2*i))*(i);
+      if((n/i)%2)
+          res += n%i;
+      i *= 2;
+  }
+  return res;
 }
 
 int main()
